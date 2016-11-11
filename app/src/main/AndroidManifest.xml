@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.aalap.playstertest">
+    package="com.example.aalap.CBCNews">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -12,7 +12,7 @@
         android:hardwareAccelerated="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.MainActivity"
+        <activity android:name="com.example.aalap.CBCNews.Activities.MainActivity"
             android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,9 +21,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Activities.StoryWebView"
+        <activity android:name="com.example.aalap.CBCNews.Activities.StoryWebView"
             android:configChanges="orientation|screenSize"
-            android:parentActivityName=".Activities.MainActivity">
+            android:parentActivityName="com.example.aalap.CBCNews.Activities.MainActivity">
 
         </activity>
     </application>

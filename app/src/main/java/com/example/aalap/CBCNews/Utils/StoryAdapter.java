@@ -1,4 +1,4 @@
-package com.example.aalap.playstertest.Utils;
+package com.example.aalap.CBCNews.Utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,8 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.aalap.playstertest.Activities.StoryWebView;
-import com.example.aalap.playstertest.R;
+import com.example.aalap.CBCNews.Activities.StoryWebView;
+import com.example.aalap.CBCNews.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

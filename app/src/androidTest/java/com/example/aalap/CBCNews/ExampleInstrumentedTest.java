@@ -1,4 +1,4 @@
-package com.example.aalap.playstertest;
+package com.example.aalap.CBCNews;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

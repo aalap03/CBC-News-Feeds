@@ -1,4 +1,4 @@
-package com.example.aalap.playstertest.Activities;
+package com.example.aalap.CBCNews.Activities;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -12,7 +12,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-import com.example.aalap.playstertest.R;
+import com.example.aalap.CBCNews.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

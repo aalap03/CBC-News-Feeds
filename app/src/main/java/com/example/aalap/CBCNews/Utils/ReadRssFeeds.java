@@ -1,4 +1,4 @@
-package com.example.aalap.playstertest.Utils;
+package com.example.aalap.CBCNews.Utils;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -6,7 +6,6 @@ import android.os.AsyncTask;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.animation.OvershootInterpolator;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -23,13 +22,7 @@ import java.util.regex.Pattern;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import jp.wasabeef.recyclerview.adapters.AlphaInAnimationAdapter;
-import jp.wasabeef.recyclerview.adapters.ScaleInAnimationAdapter;
-import jp.wasabeef.recyclerview.adapters.SlideInBottomAnimationAdapter;
 import jp.wasabeef.recyclerview.adapters.SlideInLeftAnimationAdapter;
-import jp.wasabeef.recyclerview.adapters.SlideInRightAnimationAdapter;
-import jp.wasabeef.recyclerview.animators.FadeInDownAnimator;
-import jp.wasabeef.recyclerview.animators.ScaleInLeftAnimator;
 
 
 public class ReadRssFeeds extends AsyncTask<Void, Void, Void> {

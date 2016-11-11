@@ -1,4 +1,4 @@
-package com.example.aalap.playstertest.Utils;
+package com.example.aalap.CBCNews.Utils;
 
 public class StoryDataItem {
 

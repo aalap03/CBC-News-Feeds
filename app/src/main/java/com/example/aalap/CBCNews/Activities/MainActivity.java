@@ -1,4 +1,4 @@
-package com.example.aalap.playstertest.Activities;
+package com.example.aalap.CBCNews.Activities;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -6,14 +6,12 @@ import android.content.DialogInterface;
 import android.content.res.Configuration;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
-import android.transition.Explode;
 
-import com.example.aalap.playstertest.R;
-import com.example.aalap.playstertest.Utils.ReadRssFeeds;
+import com.example.aalap.CBCNews.R;
+import com.example.aalap.CBCNews.Utils.ReadRssFeeds;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
